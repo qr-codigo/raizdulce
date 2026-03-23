@@ -31,11 +31,16 @@ document.querySelector("#submit").addEventListener("click", e => {
 		✅*Pedido*%0A
 		- ${pedido}`;
 
+
+
   if (cliente === "" || hora === "" || pedido === "") {
     resp.classList.add("fail");
     resp.innerHTML = `Datos incompletos, ${cliente}`;
     return false;
-  }
+  }  
+
+
+
   resp.classList.remove("fail");
   resp.classList.add("send");
   resp.innerHTML = `Tu pedido a sido realizado con éxito ${cliente}`;

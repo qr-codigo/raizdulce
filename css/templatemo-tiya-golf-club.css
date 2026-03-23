@@ -372,8 +372,26 @@ strong {
 }
 
 .custom-btn:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.custom-btn2 {
   background-color: #bf6d00;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-large);
   color: var(--white-color);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-bold);
+  line-height: normal;
+  transition: all 0.3s;
+  padding: 10px 20px;
+}
+
+.custom-btn2:hover {
+  background-color: transparent;
+  color: #bf6d00;
+  border: 2px solid #bf6d00;
 }
 
 .custom-border-btn {
@@ -1141,7 +1159,7 @@ strong {
 }
 
 .social-icon-link {
-  background: var(--secondary-color);
+  background-color:#bf6d00;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--btn-font-size);
@@ -1155,7 +1173,7 @@ strong {
 }
 
 .social-icon-link:hover {
-  background: var(--primary-color);
+  background-color:#4d6a4f;
   color: var(--white-color);
 }
 
