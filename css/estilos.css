@@ -1501,7 +1501,7 @@ strong {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 220vh;
+  height: 230vh;
   min-height: 870px;
 
 }
@@ -1520,7 +1520,7 @@ strong {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  height:170vh;
+  height:180vh;
   min-height: 870px;
 
 }}
@@ -1539,16 +1539,4 @@ strong {
 }
 }
 
-/*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
 
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
