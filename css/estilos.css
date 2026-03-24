@@ -772,9 +772,9 @@ strong {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 140vh;
-  min-height: 670px;
-  margin-bottom: -90px;
+  height: 150vh;
+  min-height: 870px;
+
 }
 
 .hero-50 {
@@ -1424,7 +1424,7 @@ strong {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 200vh;
+  height: 230vh;
   min-height: 870px;
   margin-bottom: -90px;
 }
@@ -1490,3 +1490,51 @@ strong {
 }
 
 
+
+
+@media only screen and (max-width: 380px) and (min-width: 320px)  {/*IPHONE SE*/
+  .hero-section {
+  background-image: url('../images/fondo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 220vh;
+  min-height: 870px;
+
+}
+}
+
+ 
+@media only screen 
+    and (width: 390px) 
+    and (height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+    .hero-section {
+  background-image: url('../images/fondo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height:170vh;
+  min-height: 870px;
+
+}}
+ @media only screen and (max-width: 344px) and (min-width: 320px)  {/*GALAXY Z FOLD*/
+  .hero-section {
+  background-image: url('../images/fondo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 170vh;
+  min-height: 870px;
+
+}
+}
