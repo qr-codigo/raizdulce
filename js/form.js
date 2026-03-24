@@ -35,7 +35,12 @@ document.querySelector("#submit").addEventListener("click", e => {
 
   if (cliente === "" || hora === "" || pedido === "") {
     resp.classList.add("fail");
-    resp.innerHTML = `Datos incompletos, ${cliente}`;
+    Swal.fire({
+  title: "Datos incompletos",
+  text: "¡Llena todos los campos para poder realizar tu pedido!",
+  icon: "question"
+});
+   
     return false;
   }  
 
