@@ -620,7 +620,9 @@ strong {
   padding-bottom: 15px;
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active{
+  color:white;
+} 
 .navbar-nav .nav-link:hover {
   color: var(--link-hover-color);
 }
@@ -763,7 +765,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/fondo1.png');
+  background-image: url('../images/fondo1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1415,7 +1417,7 @@ strong {
 
 @media screen and (min-width: 1024px) {
   .hero-section {
-  background-image: url('../images/fondo1.png');
+  background-image: url('../images/fondo1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

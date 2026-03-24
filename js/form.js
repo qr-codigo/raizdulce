@@ -39,11 +39,28 @@ document.querySelector("#submit").addEventListener("click", e => {
     return false;
   }  
 
-
-
-  resp.classList.remove("fail");
+    if (hora >= "09:00" && hora <= "18:00") {
+        console.log("Dentro del horario laboral");
+        
+        resp.classList.remove("fail");
   resp.classList.add("send");
-  resp.innerHTML = `Tu pedido a sido realizado con éxito ${cliente}`;
-
   window.open(url);
+Swal.fire({
+  title: "¡Pedido realizado con éxito!",
+  icon: "success",
+  draggable: true
+});
+    } else {
+      Swal.fire({
+  icon: "error",
+  title: "Lo sentimos",
+  text: "¡Pedido fuera de horario laboral!",
+  footer: ""
+});
+
+        return false;
+    }
+
+
+  
 });

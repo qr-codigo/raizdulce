@@ -25,7 +25,7 @@
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css" />
   
-        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!--
 
 TemplateMo 587 Tiya Golf Club
@@ -54,7 +54,7 @@ https://templatemo.com/tm-587-tiya-golf-club
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-auto">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_1">Inicio</a>
+                                <a class="nav-link click-scroll" href="index.html#">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="index.html#section_2">Pick-Up</a>
@@ -68,11 +68,11 @@ https://templatemo.com/tm-587-tiya-golf-club
 
                         
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pedidos</a>
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown " aria-expanded="false">Pedidos</a>
 
                                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="form.html">¡Haz tu pedido!</a></li>
+                                    <li><a class="dropdown-item active" href="#">¡Haz tu pedido!</a></li>
 
                                     <li><a class="dropdown-item" href="#">Ver Menú</a></li>
                                 </ul>
@@ -84,21 +84,26 @@ https://templatemo.com/tm-587-tiya-golf-club
                 </div>
             </nav>
 
-              <section class="hero-section justify-content-center align-items-center mb-5" id="section_1">
+              <section class="hero-section justify-content-center align-items-center mb-5" id="section_10">
 
                 
  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4d6a4f" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
 
+<div class="row justify-content-center col-12 mt-0 mt-md-5" style="margin:0 auto; background-color: rgba(255, 255, 255, 0.75); display:flex; justify-content: center; align-items: center; ">
+<p class="formulario__parrafo mt-2 " style="color:black; "><i class="bi bi-exclamation-circle-fill" style="color:#bf6d00"></i> 
+      Antes de hacer tu pedido puedes consultar nuestro menú, precios o dudas directamente con un asesor, solo da click en el botón.
+      </p>
+    </div>
 <div class="row justify-content-center col-12 mt-5" style="margin:0 auto">
-                                <a href="form.html" class="btn custom-btn smoothscroll animated slideInLeft col-5 col-md-3 me-3">Ver Menú</a>
-                                <a class="btn custom-btn smoothscroll  animated slideInLeft col-5 col-md-3">Consultar precio</a>
+                                <a href="form.html" class="btn custom-btn smoothscroll animated slideInLeft col-5 col-md-3 me-3"><i class="bi bi-eye"></i> Ver Menú</a>
+                                <a class="btn custom-btn smoothscroll  animated slideInLeft col-5 col-md-3"><i class="bi bi-currency-dollar"></i> Consultar precio</a>
                             </div>
                             <br>
 <div class="row justify-content-center col-12 col-md-5 mt-4" style="margin:0 auto">                            
         <form action="" class="section-bg-image-block">
       <img src="images/logo2.png" class="imgLogo" />
 
-      <h1 class="formulario__titulo" style="letter-spacing: 1px;">MI PEDIDO</h1>
+      <h1 class="formulario__titulo" style="letter-spacing: 1px; font-family:'DM Sans', sans-serif; font-size: 33px;"><i class="bi bi-journal-check"></i> MI PEDIDO</h1>
     
       <p class="formulario__parrafo">
         Llena el formulario para realizar tu pedido.
@@ -111,13 +116,13 @@ https://templatemo.com/tm-587-tiya-golf-club
                                         <label for="floatingInput">Nombre</label>
                                     </div>
       
- <label for="hora" class="form-label mt-4">Hora de recoger pedido:</label>
+ <label for="hora" class="form-label mt-4"><i class="bi bi-clock"></i> Hora de recoger pedido:</label>
   <input type="time" class="form-control" id="hora" name="hora">
    <label for="hora" class="form-label mt-2 col-12 col-md-6" style="color:gray">Lunes - Sabado 8:30 am - 8:00 pm</label>
    <label for="hora" class="form-label mt-0 col-12 col-md-6" style="color:gray">Domingo 10:00 am - 2:00 pm</label>
 
      
-<label for="hora" class="form-label mt-4 col-12">Método de Pago</label>
+<label for="hora" class="form-label mt-4 col-12"><i class="bi bi-cash-coin"></i> Método de Pago</label>
         <select class="form-select" aria-label="Default select example" id="empleado" name="listaempleados" >
   <option value="Efectivo">Efectivo</option>
   <option value="Tarjeta">Tarjeta</option>
@@ -135,7 +140,7 @@ https://templatemo.com/tm-587-tiya-golf-club
 
       <div id="respuesta"></div>
 
-      <button id="submit" class="formulario__submit mb-4">Enviar pedido</button>
+      <button id="submit" class="formulario__submit mb-4"><i class="bi bi-send"></i> Enviar pedido</button>
 
     </form>
 </div>
@@ -156,7 +161,7 @@ https://templatemo.com/tm-587-tiya-golf-club
                     </div>
 
                     <div class="col-lg-4 col-12">
-                        <h5 class="site-footer-title mb-4">Horario de atención</h5>
+                        <h5 class="site-footer-title mb-4"><i class="bi bi-clock"></i> Horario de atención</h5>
 
                         <p class="d-flex border-bottom pb-3 mb-3 me-lg-3">
                             <span>Lunes - Sábado</span>
@@ -212,6 +217,8 @@ https://templatemo.com/tm-587-tiya-golf-club
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/form.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     </body>
 </html>
