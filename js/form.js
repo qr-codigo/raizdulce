@@ -44,7 +44,7 @@ document.querySelector("#submit").addEventListener("click", e => {
     return false;
   }  
 
-    if (hora >= "09:00" && hora <= "18:00") {
+    if (hora >= "07:50" && hora <= "20:15") {
         console.log("Dentro del horario laboral");
         
         resp.classList.remove("fail");
