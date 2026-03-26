@@ -767,7 +767,7 @@ strong {
 .hero-section {
   background-image: url('../images/fondo4.webp');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   
@@ -1424,7 +1424,7 @@ strong {
   .hero-section {
    background-image: url('../images/fondo4.webp');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   
@@ -1500,7 +1500,7 @@ strong {
   .hero-section {
   background-image: url('../images/fondo4.webp');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   
@@ -1519,7 +1519,7 @@ strong {
     .hero-section {
   background-image: url('../images/fondo4.webp');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   
@@ -1532,7 +1532,7 @@ strong {
   .hero-section {
    background-image: url('../images/fondo4.webp');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   
