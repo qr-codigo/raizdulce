@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
- 
+
 }
 .formulario {
   width: 500px;
@@ -765,14 +765,17 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/fondo1.jpg');
+  background-image: url('../images/fondo4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
- 
+  
+
+  
+   
 
 }
 
@@ -816,7 +819,7 @@ strong {
   BACKGROUND IMAGE SECTION        
 -----------------------------------------*/
 .section-bg-image {
-  background-image: url('../images/fondo3.jpg');
+  background-image: url('../images/fondo2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1164,6 +1167,8 @@ strong {
 .site-footer {
   position: relative;
   padding-bottom: 200px;
+
+
 }
 
 .site-footer .container {
@@ -1172,7 +1177,7 @@ strong {
 }
 
 .site-footer svg {
-  position: absolute;
+  position:absolute ;
   bottom: 0;
   right: 0;
   left: 0;
@@ -1416,15 +1421,14 @@ strong {
 
 @media screen and (min-width: 1024px) {
   .hero-section {
-  background-image: url('../images/fondo1.jpg');
+  background-image: url('../images/fondo4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 230vh;
-  min-height: 870px;
+  
   margin-bottom: -90px;
 }
 .navbar-brand-image {
@@ -1493,14 +1497,14 @@ strong {
 
 @media only screen and (max-width: 380px) and (min-width: 320px)  {/*IPHONE SE*/
   .hero-section {
-  background-image: url('../images/fondo1.jpg');
+  background-image: url('../images/fondo4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
- 
+  
 
 }
 }
@@ -1511,7 +1515,7 @@ strong {
     and (height: 844px) 
     and (-webkit-device-pixel-ratio: 3) { 
     .hero-section {
-  background-image: url('../images/fondo1.jpg');
+  background-image: url('../images/fondo4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1523,7 +1527,7 @@ strong {
 }}
  @media only screen and (max-width: 344px) and (min-width: 320px)  {/*GALAXY Z FOLD*/
   .hero-section {
-  background-image: url('../images/fondo1.jpg');
+  background-image: url('../images/fondo4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1537,13 +1541,24 @@ strong {
 
 
 .accordion-button{
-  background-color: #fef3d5;
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(5px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: var(--border-radius-medium);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  border-radius: var(--border-radius-medium);
   color:#4d6a4f;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 20px;
 }
 .accordion-button:hover{
   background-color: #bf6d00;
   color:#fef3d5;
 }
+
 
 .accordion-button:is(.collapsed)::after {
         
@@ -1553,8 +1568,14 @@ strong {
 
     .accordion-button:not(.collapsed)::after {
         background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fef3d5'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important; 
+    
     }
 
     .accordion-body{
-      background-color: #fff;
+      background-color: #fef3d5;
+      font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 19px;
     }
