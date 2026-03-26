@@ -770,7 +770,7 @@ strong {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
   
@@ -1427,7 +1427,7 @@ strong {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
   margin-bottom: -90px;
@@ -1503,7 +1503,7 @@ strong {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
   
@@ -1522,7 +1522,7 @@ strong {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
   
@@ -1535,7 +1535,7 @@ strong {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
   
