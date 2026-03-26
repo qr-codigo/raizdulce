@@ -102,3 +102,12 @@
 })(jQuery);
 
 
+
+ // 1. Get the element
+  var tooltipEl = document.getElementById('staticTooltipBtn');
+
+  // 2. Initialize the tooltip instance
+  var tooltip = new bootstrap.Tooltip(tooltipEl);
+
+  // 3. Manually show the tooltip
+  tooltip.show();
