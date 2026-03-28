@@ -1557,11 +1557,25 @@ strong {
   font-weight: <weight>;
   font-style: normal;
   font-size: 20px;
+  box-shadow: none; /* Quita el borde azul de enfoque si lo deseas */
 }
 .accordion-button:hover{
   background-color: #bf6d00;
   color:#fef3d5;
+  box-shadow: none; /* Quita el borde azul de enfoque si lo deseas */
+
 }
+
+/* Color de fondo cuando el acordeón está abierto */
+.accordion-button:not(.collapsed) {
+    background-color: #bf6d00; /* Color de fondo */
+    color: #fef3d5; /* Color del texto */
+    box-shadow: none; /* Quita el borde azul de enfoque si lo deseas */
+
+}
+
+/* Color de fondo cuando está cerrado (opcional) */
+
 
 
 .accordion-button:is(.collapsed)::after {
