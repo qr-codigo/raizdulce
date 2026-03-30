@@ -78,7 +78,7 @@ Swal.fire({
 
 } else {
   console.log("No es domingo.");
-   if (hora >= "07:50" && hora <= "20:15") {
+   if (hora >= "08:00" && hora <= "20:00") {
         console.log("Dentro del horario laboral");
         
         resp.classList.remove("fail");
